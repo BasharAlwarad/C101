@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "C:/MinGW/include",
+        "C:/MinGW/lib/gcc/mingw32/12.2.0/include", // Replace with your actual version
+        "C:/MinGW/lib/gcc/mingw32/12.2.0/include/c++", // Optional: For C++
+        "C:/MinGW/lib/gcc/mingw32/12.2.0/include/c++/mingw32" // Optional
+      ],
+      "defines": [],
+      "compilerPath": "C:/MinGW/bin/gcc.exe", // Or g++.exe if using C++
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "gcc-x86"
+    }
+  ],
+  "version": 4
+}
+
+// {
+//     "configurations": [
+//         {
+//             "name": "Win32",
+//             "includePath": [
+//                 "${workspaceFolder}/**"
+//             ],
+//             "defines": [
+//                 "_DEBUG",
+//                 "UNICODE",
+//                 "_UNICODE"
+//             ]
+//         }
+//     ],
+//     "version": 4
+// }
